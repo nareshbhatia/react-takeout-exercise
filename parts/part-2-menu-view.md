@@ -47,4 +47,21 @@ menu view.
   `grey-100` color. Also, the cursor should change to a pointer to indicate that
   the menu item is clickable.
 
+- Write a simple unit test for `MenuItemView` to make sure it renders correctly.
+  Since this is a very small component, you can use a snapshot test for it. See
+  `/src/pages/NotFoundPage/NotFoundPage.test.tsx` for an example. Run your unit
+  tests by executing `npm test` (runs lint & coverage) or `npm run test:watch`
+  (runs in interactive mode).
+
+- Write a unit test for `MenuView`. Since this is a large component, do not use
+  a snapshot test. Instead, render the component using the sample data in the
+  mock server and verify that 5 sections and 12 items are rendered. Note that we
+  are not mocking anything in the test code. We let the test make a network
+  call, which is intercepted by Mock Service Worker and a response is returned.
+  This is the beauty of MSW - it allows you to test your components without
+  excessive mocking! See `/src/pages/HomePage/HomePage.test.tsx` for an example.
+
+- Write a Storybook story to show your `MenuView` component. Again this story
+  should fetch data from the Mock Service Worker.
+
 That's it for part 2. Now move on to [part 3](part-3-order-view.md).

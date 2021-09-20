@@ -39,6 +39,14 @@ npm install @react-force/number-utils react-icons  # or "yarn add" if you are us
 npm start  # or "yarn start" if you are using yarn
 ```
 
+- Edit package.json and change the `test` command under `scripts` as follows.
+  This replaces the default interactive test to a more exhaustive coverage test
+  and also adds linting.
+
+```json
+"test": "yarn lint && yarn test:coverage",
+```
+
 - Be sure not to delete the `HomePage` under `/src/pages/HomePage`. We will use
   this page as a guidance for our order page.
 

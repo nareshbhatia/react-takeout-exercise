@@ -60,4 +60,27 @@ order view.
 
 ![Checkout page](/assets/checkout-page.png)
 
+- Run your test suite again to make sure that all your tests are running
+  successfully (`npm test`). You will find that it fails because of the
+  introduction of `OrderContext`. `MenuView` now needs to be wrapped with
+  `OrderContextProvider`. Fix your test suite by making this change to
+  `MenuView` and `MenuItemView` tests.
+
+- Add one more test for `MenuItemView` to verify that it adds the item to the
+  order when clicked. This test can be heavily simplified by creating a simpler
+  `OrderView` local to the test - this one simply renders a list of order items
+  from the order context. This approach is in line with the
+  [React Testing Library Guiding Principles](https://testing-library.com/docs/guiding-principles/):
+  _It is generally useful for testing the application components in the way the
+  user would use it_.
+
+- Add two tests to verify that the `OrderView` renders correctly when the order
+  contains no items vs. one or more items.
+
+- Add a test to make sure that the delete button on order items deletes the item
+  from the order.
+
+- Write a Storybook story to show your `OrderView` component. Set up the
+  `OrderContext` to show a few orders.
+
 That's it for part 3. You are done! Go celebrate!
