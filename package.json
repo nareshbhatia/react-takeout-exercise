@@ -1,0 +1,24 @@
+{
+  "name": "react-takeout-exercise",
+  "description": "A practice exercise to test your React skills.",
+  "version": "0.1.0",
+  "author": "Naresh Bhatia",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nareshbhatia/react-takeout-exercise"
+  },
+  "scripts": {
+    "format": "prettier --write README.md parts"
+  },
+  "dependencies": {
+    "husky": "^5.2.0",
+    "prettier": "^2.4.1",
+    "pretty-quick": "^3.1.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
