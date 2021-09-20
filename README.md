@@ -45,5 +45,7 @@ Now that we have the full context of the exercise, let's jump to implementation.
 We will do this in 3 parts:
 
 1. [Set up the basic Order page](parts/part-1-order-page.md)
-2. [Implement the Menu view](parts/part-1-order-page.md)
-3. [Implement the Order view](parts/part-1-order-page.md)
+2. [Implement the Menu view](parts/part-2-menu-view.md)
+3. [Implement the Order view](parts/part-3-order-view.md)
+
+Please go to [part 1](parts/part-1-order-page.md) to get started!

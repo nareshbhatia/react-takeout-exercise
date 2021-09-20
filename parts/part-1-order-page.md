@@ -16,7 +16,8 @@ to replicate certain patterns.
 ## General Guidelines
 
 - Use raw CSS to style your components. Do not use any CSS framework or
-  component library. This is to test your basic understanding of CSS.
+  component library. This is to test your basic understanding of CSS. The
+  _Accelerate_ template provides a starter style sheet under `/src/styles`.
 - Use CSS Variables to ensure that you are not repeating color values, spacings
   etc.
 
@@ -69,4 +70,4 @@ npm start  # or "yarn start" if you are using yarn
   400px. Both views should be independently scrollable in case their content
   overflows the height of the window. Test with "Lorem ipsum" content.
 
-That's it for part 1. Now move on to part 2.
+That's it for part 1. Now move on to [part 2](part-2-menu-view.md).
