@@ -7,12 +7,6 @@ template to set up the base project. This template is based on
 [Create React App](https://github.com/facebook/create-react-app) and adds
 libraries and tools to write web applications using best practices.
 
-I recommend cloning the
-[Accelerated News](https://github.com/PublicisSapient/accelerated-news) sample
-created using the same template. Run the app using the instructions provided in
-the README. I will be referring to this sample throughout the Takeout exercise
-to replicate certain patterns.
-
 ## General Guidelines
 
 - Use raw CSS to style your components. Do not use any CSS framework or
@@ -32,6 +26,9 @@ to replicate certain patterns.
 cd ~/projects
 npx create-react-app react-takeout --template accelerate
 cd react-takeout
+
+# Add a couple of libraries that we will use later
+npm install @react-force/number-utils react-icons  # or "yarn add" if you are using yarn
 ```
 
 - Make sure that the app works by executing the following command. The app

@@ -5,11 +5,11 @@ menu view.
 
 ## Instructions
 
-- The `MenuView` uses a `Menu` object to render its contents. The type
-  definition of `Menu` has been supplied to you. Copy it from
-  `/code/src/models/Menu.ts` in this repo to `/src/models/Menu.ts` in your repo.
-  Note that the `/code` folder in this repo is structured to mimic the root
-  folder of your `react-takeout` repo.
+- `MenuView` uses a `Menu` object to render its contents. The type definition of
+  `Menu` has been supplied to you. Copy it from `/code/src/models/Menu.ts` in
+  this repo to `/src/models/Menu.ts` in your repo. Note that the `/code` folder
+  in this repo is structured to mimic the root folder of your `react-takeout`
+  repo.
 
 - Review the `Menu` type. Note that it consists of a collection of menu items
   that are grouped into sections (such as appetizers and salads). The menu
