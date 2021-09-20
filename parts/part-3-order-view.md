@@ -83,4 +83,8 @@ order view.
 - Write a Storybook story to show your `OrderView` component. Set up the
   `OrderContext` to show a few orders.
 
+- Write an integration test using Cypress to test the takeout workflow. Start by
+  adding a few items to the order, then delete one or more items. Finally, click
+  on the checkout button to navigate to the checkout page.
+
 That's it for part 3. You are done! Go celebrate!
