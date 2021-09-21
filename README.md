@@ -27,6 +27,13 @@ exercise. Thanks for your understanding.
 
 ![Populated order](assets/screenshot-2.png)
 
+## Visual Design
+
+This
+[Figma Project](https://www.figma.com/file/I4grGxVxq6em33rCNdHPxs/Takeout?node-id=0%3A1)
+contains the visual design for the React Takeout application. You will have to
+create an account with Figma to be able to inspect the CSS values.
+
 ## Technical Design
 
 Before we jump into implementation, let's create a plan of attack. The diagram
