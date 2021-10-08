@@ -43,9 +43,9 @@ menu view.
   very important to pay attention to details here and honor the spirit of the
   design.
 
-- As the cursor hovers over each menu item it should be highlighted with the
-  `grey-100` color. Also, the cursor should change to a pointer to indicate that
-  the menu item is clickable.
+- As the cursor hovers over each menu item it should change the background color
+  of the entire card to `grey-100`. Also, the cursor should change to a pointer
+  to indicate that the menu item is clickable.
 
 - Write a simple unit test for `MenuItemView` to make sure it renders correctly.
   Since this is a very small component, you can use a snapshot test for it. See
