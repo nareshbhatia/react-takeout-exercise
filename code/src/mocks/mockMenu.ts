@@ -6,14 +6,14 @@ const items: { [itemId: string]: MenuItem } = {
     name: 'Avocado and Lime Bowl',
     description:
       'Greens, avocado, black bean salsa, quinoa, cherry tomatoes, cheddar cheese, lime wedge',
-    price: 8.95,
+    price: 9.0,
   },
   'avocado-toast': {
     id: 'avocado-toast',
     name: 'Avocado Toast',
     description:
       'Avocado toast served on country bread, served with a side of veggies',
-    price: 8.95,
+    price: 9.0,
   },
   'baked-sweet-potato-fries': {
     id: 'baked-sweet-potato-fries',
@@ -73,7 +73,7 @@ const items: { [itemId: string]: MenuItem } = {
     name: 'Tiramisu',
     description:
       'Italian custard made with mascarpone, whipped cream and lady fingers',
-    price: 9.95,
+    price: 9.9,
   },
   'vegetable-penne-pasta': {
     id: 'vegetable-penne-pasta',
