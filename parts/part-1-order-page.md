@@ -17,26 +17,19 @@ libraries and tools to write web applications using best practices.
 
 ## Instructions
 
-- Create a local repo on your machine using the
-  [React Accelerate](https://github.com/PublicisSapient/cra-template-accelerate)
-  template. Here are the commands to do this. I am assuming that you create your
-  projects under `~/projects`, but feel free to change this location.
+- Create a React app in a local repo using the name `react-takeout`. Use the
+  detailed instructions in the Getting Started section of the
+  [React Accelerate](https://github.com/PublicisSapient/cra-template-accelerate#getting-started)
+  template. Follow these instructions precisely to avoid wasting time.
+
+- Install a couple of libraries that we will use later.
 
 ```sh
-cd ~/projects
-npx create-react-app react-takeout --template accelerate
-cd react-takeout
+npm install @react-force/number-utils react-icons
 
-# Add a couple of libraries that we will use later
-npm install @react-force/number-utils react-icons  # or "yarn add" if you are using yarn
-```
+# or
 
-- Make sure that the app works by executing the following command. The app
-  should start at http://localhost:3000/ on your browser and display the home
-  page (list of top 10 movies).
-
-```sh
-npm start  # or "yarn start" if you are using yarn
+yarn add @react-force/number-utils react-icons
 ```
 
 - Edit package.json and change the `test` command under `scripts` as follows.
@@ -49,6 +42,21 @@ npm start  # or "yarn start" if you are using yarn
 
 - Be sure not to delete the `HomePage` under `/src/pages/HomePage`. We will use
   this page as a guidance for our order page.
+
+- Commit your changes so far:
+
+```sh
+git add .
+git commit -m "Added dependencies for exercise"
+```
+
+- Create a branch for your solution. It's always a good practice to work on a
+  branch so that you can create pull requests for others to review your code.
+
+```sh
+git branch solution
+git checkout solution
+```
 
 - Create a minimal order page at `/src/pages/OrderPage/OrderPage.tsx`, e.g. make
   it render "Order Page". Mimic the structure of the home page. Also create an
