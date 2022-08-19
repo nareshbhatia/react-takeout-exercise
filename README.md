@@ -34,6 +34,20 @@ This
 contains the visual design for the React Takeout application. You will have to
 create an account with Figma to be able to inspect the CSS values.
 
+At a very high-level the interface is divided into two parts:
+
+1. The left-hand side shows the menu of available items.
+2. The right-hand side shows the current state of the order.
+
+The UI is expected to stretch to the full width of the browser window, with the
+right-hand side remaining fixed at a width of 400px. The menu item cards should
+stretch to cover the full space available on the left-hand side.
+
+The heights of the two sides should stretch to the full height of the browser
+window. Do not fix them to any hard coded number. If the window is too short for
+the content to fit, the two sides should scroll independently to show the full
+content.
+
 ## Technical Design
 
 Before we jump into implementation, let's create a plan of attack. The diagram
