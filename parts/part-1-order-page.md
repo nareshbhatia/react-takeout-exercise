@@ -73,6 +73,8 @@ git checkout solution
   side-by-side using flexbox. `MenuView` should be on the left and take up as
   much room as available. `OrderView` should be on the right and occupy exactly
   400px. Both views should be independently scrollable in case their content
-  overflows the height of the window. Test with "Lorem ipsum" content.
+  overflows the height of the window. Test with "Lorem ipsum" content. See
+  instructions under [Visual Design](../README.md#Visual Design) for detailed
+  requirements and implementation hints.
 
 That's it for part 1. Now move on to [part 2](part-2-menu-view.md).
