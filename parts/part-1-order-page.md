@@ -73,8 +73,14 @@ git checkout solution
   side-by-side using flexbox. `MenuView` should be on the left and take up as
   much room as available. `OrderView` should be on the right and occupy exactly
   400px. Both views should be independently scrollable in case their content
-  overflows the height of the window. Test with "Lorem ipsum" content. See
-  instructions under [Visual Design](/README.md#Visual Design) for detailed
-  requirements and implementation hints.
+  overflows the height of the window. Test with "Lorem ipsum" content.
+
+> The basic technique to achieve the above behavior is to set `height: 100%` on
+> every element starting from `<html>`, `<body>`, down to the element that you
+> want to stretch to full height. You can also achieve the same effect by
+> setting `height: 100vh` at the page level and then `height: 100%` on nested
+> elements. See this
+> [Storybook story](https://github.com/PublicisSapient/accelerated-news/blob/main/src/components/Containers/Containers.stories.tsx#L105-L138)
+> to get an idea.
 
 That's it for part 1. Now move on to [part 2](part-2-menu-view.md).
