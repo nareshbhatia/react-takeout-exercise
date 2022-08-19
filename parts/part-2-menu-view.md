@@ -43,6 +43,9 @@ menu view.
   very important to pay attention to details here and honor the spirit of the
   design.
 
+- The menu item prices should be formatted with two decimal digits, e.g. 9
+  should be shown as 9.00. Use NumberUtils.formatAsMoney() to achieve this.
+
 - As the cursor hovers over each menu item it should change the background color
   of the entire card to `grey-100`. Also, the cursor should change to a pointer
   to indicate that the menu item is clickable.
