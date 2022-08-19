@@ -48,6 +48,12 @@ window. Do not fix them to any hard coded number. If the window is too short for
 the content to fit, the two sides should scroll independently to show the full
 content.
 
+> The basic technique to achieve the above behavior is to set `height: 100%` on
+> every element starting from `<html>`, `<body>`, down to the element that you
+> want to stretch to full height. You can also achieve the same effect by
+> setting `height: 100vh` and the page level and then `height: 100%` on nested
+> elements.
+
 ## Technical Design
 
 Before we jump into implementation, let's create a plan of attack. The diagram
